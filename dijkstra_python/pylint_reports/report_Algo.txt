@@ -1,0 +1,162 @@
+************* Module Algo
+Algo.py:3:23: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:43:0: C0301: Line too long (104/100) (line-too-long)
+Algo.py:96:0: C0301: Line too long (102/100) (line-too-long)
+Algo.py:105:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:112:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:119:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:126:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:127:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:133:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:138:0: C0301: Line too long (123/100) (line-too-long)
+Algo.py:1:0: C0103: Module name "Algo" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Algo.py:3:0: C0103: Function name "indiceMinimum" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:3:18: W0621: Redefining name 'vec' from outer scope (line 101) (redefined-outer-name)
+Algo.py:5:4: W0621: Redefining name 'minimum' from outer scope (line 102) (redefined-outer-name)
+Algo.py:20:8: W0621: Redefining name 'indice' from outer scope (line 102) (redefined-outer-name)
+Algo.py:26:0: C0103: Function name "noeudMinimalNonVisitesDeNoeud" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:26:34: W0621: Redefining name 'matrice' from outer scope (line 106) (redefined-outer-name)
+Algo.py:26:43: W0621: Redefining name 'noeud' from outer scope (line 107) (redefined-outer-name)
+Algo.py:26:50: W0621: Redefining name 'noeuds_vis' from outer scope (line 108) (redefined-outer-name)
+Algo.py:32:8: W0621: Redefining name 'indice' from outer scope (line 102) (redefined-outer-name)
+Algo.py:30:4: C0103: Variable name "rowN" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:33:12: C0103: Variable name "noeudV" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:40:0: C0103: Function name "noeudMinimalNonVisites" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:40:27: W0621: Redefining name 'matrice' from outer scope (line 106) (redefined-outer-name)
+Algo.py:40:35: W0621: Redefining name 'noeuds_vis' from outer scope (line 108) (redefined-outer-name)
+Algo.py:45:8: W0621: Redefining name 'noeud' from outer scope (line 107) (redefined-outer-name)
+Algo.py:46:8: W0621: Redefining name 'indice' from outer scope (line 102) (redefined-outer-name)
+Algo.py:46:16: W0621: Redefining name 'minimum' from outer scope (line 102) (redefined-outer-name)
+Algo.py:44:4: C0103: Variable name "listNoeud" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:50:12: C0103: Variable name "otherC" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:59:0: C0103: Function name "noeudsVoisins" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:59:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:59:18: W0621: Redefining name 'matrice' from outer scope (line 106) (redefined-outer-name)
+Algo.py:59:27: W0621: Redefining name 'noeud' from outer scope (line 107) (redefined-outer-name)
+Algo.py:63:15: W0621: Redefining name 'poids' from outer scope (line 123) (redefined-outer-name)
+Algo.py:61:4: C0103: Variable name "listNoeudV" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:62:4: C0103: Variable name "listPoid" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:70:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:70:13: W0621: Redefining name 'matrice' from outer scope (line 106) (redefined-outer-name)
+Algo.py:70:22: W0621: Redefining name 'depart' from outer scope (line 135) (redefined-outer-name)
+Algo.py:70:30: W0621: Redefining name 'arrive' from outer scope (line 136) (redefined-outer-name)
+Algo.py:87:21: W0621: Redefining name 'poids' from outer scope (line 123) (redefined-outer-name)
+Algo.py:73:4: C0103: Variable name "distanceMin" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:76:4: C0103: Variable name "noeudVisites" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:85:4: C0103: Variable name "noeudCourant" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:87:8: C0103: Variable name "noeudVoisin" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:94:8: C0103: Variable name "noeudCourant" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:93:8: W0612: Unused variable 'debut' (unused-variable)
+Algo.py:103:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:107:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:110:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:114:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:117:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:121:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:124:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:129:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:131:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:135:4: C0103: Constant name "depart" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:136:4: C0103: Constant name "arrive" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:138:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+99 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |0.00        |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |103    |73.05 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |23     |16.31 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |15     |10.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |44     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |28          |
++---------------------------+------------+
+|redefined-outer-name       |19          |
++---------------------------+------------+
+|trailing-whitespace        |7           |
++---------------------------+------------+
+|missing-function-docstring |5           |
++---------------------------+------------+
+|line-too-long              |3           |
++---------------------------+------------+
+|unused-variable            |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 3.54/10
+

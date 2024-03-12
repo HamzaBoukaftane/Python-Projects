@@ -1,0 +1,163 @@
+************* Module test_assignment
+test_assignment.py:12:0: C0301: Line too long (110/100) (line-too-long)
+test_assignment.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:61:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:69:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:75:47: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:76:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:83:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:98:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:101:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:108:30: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:113:34: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:122:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:123:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+test_assignment.py:16:0: C0103: Constant name "algo_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+test_assignment.py:17:0: C0103: Constant name "interface_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+test_assignment.py:38:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:40:4: C0103: Method name "testIndiceMinimum" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:46:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:49:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:54:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:54:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:57:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:62:4: C0103: Method name "testnoeudMinimalNonVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:64:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:70:4: C0103: Method name "testNoeudsVoisinsA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:70:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:77:4: C0103: Method name "testNoeudsVoisinsB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:77:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:84:4: C0103: Method name "testDijkstra" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:84:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:92:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:95:4: C0103: Method name "testSaisirMatrice" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:95:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:95:32: W0613: Unused argument 'mock_inputs' (unused-argument)
+test_assignment.py:99:4: C0103: Method name "testGenereMatriceAleatoireA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:99:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:102:4: C0103: Method name "testGenereMatriceAleatoireB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:102:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:116:4: C0103: Method name "testAfficheChemin" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:116:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:127:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+test_assignment.py:19:11: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+test_assignment.py:20:16: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+
+Report
+======
+102 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |11     |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    Algo (test_assignment)
+    Interface (test_assignment)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |105    |79.55 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |0.76  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |26     |19.70 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |48     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|trailing-whitespace        |17          |
++---------------------------+------------+
+|invalid-name               |16          |
++---------------------------+------------+
+|missing-function-docstring |11          |
++---------------------------+------------+
+|missing-class-docstring    |2           |
++---------------------------+------------+
+|consider-using-with        |2           |
++---------------------------+------------+
+|unused-argument            |1           |
++---------------------------+------------+
+|unspecified-encoding       |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 4.90/10
+

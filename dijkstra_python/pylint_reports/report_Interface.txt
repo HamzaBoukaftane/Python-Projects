@@ -1,0 +1,137 @@
+************* Module Interface
+Interface.py:55:0: C0301: Line too long (102/100) (line-too-long)
+Interface.py:71:0: C0303: Trailing whitespace (trailing-whitespace)
+Interface.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
+Interface.py:1:0: C0103: Module name "Interface" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Interface.py:5:0: C0103: Function name "saisirMatrice" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Interface.py:12:8: W0621: Redefining name 'i' from outer scope (line 75) (redefined-outer-name)
+Interface.py:10:4: C0103: Variable name "nbNoeuds" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:15:4: C0103: Variable name "nbPoid" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:17:4: C0103: Variable name "listNbPoid" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:18:4: C0103: Variable name "nb" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:21:8: C0103: Variable name "nb" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:25:8: C0103: Variable name "firstNode" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:26:8: C0103: Variable name "secondNode" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:27:8: C0103: Variable name "weightValue" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:12:8: W0612: Unused variable 'i' (unused-variable)
+Interface.py:33:0: C0103: Function name "genereMatriceAleatoire" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+Interface.py:33:27: W0621: Redefining name 'nb_noeuds' from outer scope (line 72) (redefined-outer-name)
+Interface.py:37:8: W0621: Redefining name 'i' from outer scope (line 75) (redefined-outer-name)
+Interface.py:41:8: C0103: Variable name "firstNode" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:42:12: C0103: Variable name "otherN" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:43:12: C0103: Variable name "secondNode" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:44:12: C0103: Variable name "weightValue" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:49:8: C0103: Variable name "rNb" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:37:8: W0612: Unused variable 'i' (unused-variable)
+Interface.py:54:0: C0103: Function name "afficheChemin" doesn't conform to snake_case naming style (invalid-name)
+Interface.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+Interface.py:54:18: W0621: Redefining name 'predecesseurs' from outer scope (line 81) (redefined-outer-name)
+Interface.py:54:33: W0621: Redefining name 'depart' from outer scope (line 82) (redefined-outer-name)
+Interface.py:54:41: W0621: Redefining name 'arrive' from outer scope (line 83) (redefined-outer-name)
+Interface.py:72:4: C0103: Constant name "nb_noeuds" doesn't conform to UPPER_CASE naming style (invalid-name)
+Interface.py:74:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Interface.py:77:19: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+Interface.py:82:4: C0103: Constant name "depart" doesn't conform to UPPER_CASE naming style (invalid-name)
+Interface.py:83:4: C0103: Constant name "arrive" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+62 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |64     |74.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |14     |16.28 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |8      |9.30  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |8      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |21          |
++---------------------------+------------+
+|redefined-outer-name       |6           |
++---------------------------+------------+
+|missing-function-docstring |3           |
++---------------------------+------------+
+|unused-variable            |2           |
++---------------------------+------------+
+|trailing-whitespace        |2           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+|consider-using-f-string    |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 4.03/10
+
